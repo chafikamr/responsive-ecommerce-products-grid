@@ -1,0 +1,307 @@
+.product-item .product-details {
+    transition: border 0.25s;
+}
+
+.product-item .product-details {
+    padding: 20px 15px;
+    text-align: center;
+    border-top: 1px solid #f0f0f0;
+}
+
+.product-item .product-title {
+    font-size: 14px;
+}
+
+.product-item .product-title {
+    margin: 0 0 10px;
+}
+
+.product-item .product-title a {
+    display: block;
+    color: inherit;
+}
+
+.product-item .product-price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.product-item .product-price .before {
+    color: #747474;
+    text-decoration: line-through;
+}
+
+.product-item .product-price .before {
+    margin: 0 0 5px;
+}
+
+.product-item .product-price .after {
+    font-size: 16px;
+    font-weight: 700;
+    color: red;
+}
+
+.product-item .product-actions {
+    margin: 15px 0 0;
+}
+
+.product-item .product-actions .button {
+    min-width: 190px;
+    font-weight: 600;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: inherit;
+    color: #1a1a1a;
+    font-size: 14px;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    min-height: 100vh;
+}
+
+a,
+a:active,
+a:hover {
+    color: green;
+    text-decoration: none;
+    outline: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.currency-value {
+    display: inline-flex;
+    align-items: center;
+}
+
+.currency-value .currency,
+.currency-value .value,
+.currency-value small {
+    font-size: inherit;
+}
+
+.product-item {
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 5px 20px -10px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    cursor: pointer;
+    transition: transform .2s ease-in-out;
+}
+
+.product-item:hover {
+    transform: translateY(-10px);
+}
+
+.product-item .product-thumbnail {
+    display: block;
+    position: relative;
+    height: 0;
+    overflow: hidden;
+}
+
+.product-item .product-thumbnail {
+    padding: 0 0 100%;
+}
+
+.product-item .product-thumbnail img {
+    position: absolute;
+    top: 50%;
+    max-height: 100%;
+    text-indent: -9999px;
+    transition: transform 0.25s ease;
+    right: 50%;
+    transform: translate(50%, -50%) scale(1);
+}
+
+.body {
+    padding-top: 50px;
+}
+
+.row {
+    margin-top: 50px
+}
+
+.buy-now-button {
+    border: 1px solid;
+    padding: 10px 56px;
+    border-radius: 3px;
+    transition: .2s ease-in-out;
+}
+
+.buy-now-button:hover {
+    background-color: rgb(54, 186, 131);
+    color: white
+}
+
+
+/** end section1 **/
+
+section {
+    margin-top: 30px;
+}
+
+header h2 {
+    text-align: center;
+}
+
+
+/*** Star Secrion 2****/
+
+.steame-paper {
+    padding-top: 50PX;
+    background-color: #fcfcfc;
+}
+
+.steame-paper .product-item {
+    background-color: white;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 0;
+}
+
+.steame-paper .product-item .product-actions .buy-now-button {
+    width: 100%;
+    display: block;
+    /* border-radius: 50px; */
+    background-image: linear-gradient(45deg, #ff9800, #ffc107);
+    box-shadow: 1px 1px 9px 1px #1a1a1a14;
+    color: rgb(85, 85, 85);
+    border: none;
+}
+
+.steame-paper .product-item .product-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: revert;
+}
+
+.steame-paper .product-item:hover {
+    transform: translateY(0);
+}
+
+.steame-paper .product-item .product-thumbnail img {
+    transition: transform .5s ease-in-out;
+}
+
+.steame-paper .product-item:hover .product-thumbnail img {
+    transform: translate(50%, -50%) scale(1.1);
+}
+
+.steame-paper .product-item .product-price .after {
+    color: #ff5722;
+}
+
+
+/*** For lux **/
+
+.lux-lovers .product-item {
+    box-shadow: none;
+    border: none;
+}
+
+.lux-lovers .product-item:hover {
+    transform: translateY(0);
+}
+
+.lux-lovers .product-item .product-actions .buy-now-button {
+    background-color: black;
+    color: white;
+}
+
+
+/** Inspiring PWA **/
+
+.inspiring-pwa {
+    padding-top: 50PX;
+    background-color: #fcfcfc;
+}
+
+.inspiring-pwa .product-item {
+    background-color: white;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.inspiring-pwa .product-item .product-actions .buy-now-button {
+    width: 100%;
+    display: block;
+    /* border-radius: 50px; */
+    background-image: linear-gradient(45deg, #e91e63, #f44336);
+    box-shadow: 1px 1px 9px 1px #1a1a1a14;
+    color: rgb(255, 255, 255);
+    border: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.inspiring-pwa .product-item .product-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: revert;
+}
+
+.inspiring-pwa .product-item:hover {
+    transform: translateY(0);
+}
+
+.inspiring-pwa .product-item .product-thumbnail img {
+    transition: transform .5s ease-in-out;
+}
+
+.inspiring-pwa .product-item:hover .product-thumbnail img {
+    transform: translate(50%, -50%) scale(1.1);
+}
+
+.inspiring-pwa .product-item .product-price .after {
+    color: #ff5722;
+}
+
+.inspiring-pwa .product-item .product-details {
+    position: relative;
+}
+
+.inspiring-pwa .product-item .product-actions {
+    margin-bottom: 30px;
+}
+
+.inspiring-pwa .product-item .product-item .product-title a {
+    color: #4e4e4e;
+    font-weight: bold;
+}
+
+
+/**** grid on phone ***/
+
+.grid-on-phone .product-item .product-actions .buy-now-button {
+    padding: 0.5rem 1.5rem;
+}
